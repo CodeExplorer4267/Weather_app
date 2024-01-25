@@ -49,13 +49,13 @@ div.weather{
     margin:12px 42vw;
     text-align: center;
     color:white;
-    backdrop-filter: blur(20px);
 }
 div.weather h1{
     margin-bottom: 10px;
 }
 img#weather_logo{
     height:275px;
+    backdrop-filter: blur(20px);
 }
 div.details{
   display: flex;
@@ -65,7 +65,6 @@ div.details{
   flex-direction: row;
   font-size: 20px;
   color: #470047;
-  backdrop-filter: blur(20px);
 }
 div.humidity img{
     height: 38px;
@@ -86,6 +85,7 @@ div.humidity{
     padding: 11px;
     border-radius: 23px;
     transition: 0.6s;
+    backdrop-filter: blur(20px);
 }
 div.wind{
     display: flex;
@@ -96,6 +96,7 @@ div.wind{
     padding: 11px;
     border-radius: 23px;
     transition: 0.6s;
+    backdrop-filter: blur(20px);
 }
 p.humidity{
     margin-right: 4px;
@@ -112,6 +113,7 @@ div.min_temp{
     padding: 11px;
     border-radius: 23px;
     transition: 0.6s;
+    backdrop-filter: blur(20px);
 }
 div.max_temp{
     display: flex;
@@ -122,6 +124,7 @@ div.max_temp{
     padding: 11px;
     border-radius: 23px;
     transition: 0.6s;
+    backdrop-filter: blur(20px);
 }
 div.min_temp img,div.max_temp img,div.Feels_like img{
     height: 38px;
@@ -138,6 +141,7 @@ div.wind_degrees{
     padding: 11px;
     border-radius: 23px;
     transition: 0.6s;
+    backdrop-filter: blur(20px);
 }
 div.wind_degrees img{
     height:38px;
@@ -147,6 +151,7 @@ div.wind_degrees img{
 div.Feels_like{
     display: flex;
     flex-direction: row;
+    backdrop-filter: blur(20px);
     align-items: center;
     justify-content: center;
     border: 3px solid #350065;
